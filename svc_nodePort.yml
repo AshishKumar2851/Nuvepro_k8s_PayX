@@ -7,6 +7,6 @@ spec:
   selector:
     app: nginx
   ports:
-    - port: 80           # Service port
+    - port: 81           # Service port
       targetPort: 80     # Container port
       nodePort: 30080    # External access port (must be between 30000–32767)
